@@ -11,6 +11,6 @@ button1.addEventListener('click', function()
     });
     audio1.addEventListener('ended', function()
     {
-
-    })
+        console.log('Audio 1 ended!');
+    });
 })
